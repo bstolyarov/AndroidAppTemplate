@@ -38,7 +38,7 @@ import com.softteco.template.ui.theme.ThemeMode
 import com.softteco.template.utils.sendMail
 
 private const val ABOUT_URL = "https://softteco.com"
-private const val TERMS_OF_SERVICES_URL = "https://softteco.com/terms-of-services"
+private const val TERMS_OF_SERVICES_URL = "https://softteco.com/"
 private const val PRIVACY_POLICY = "https://softteco.com/privacy-policy"
 
 @Composable

@@ -22,7 +22,10 @@ class SettingsViewModel @Inject constructor(
 
     fun setThemeMode(themeMode: ThemeMode) {
         viewModelScope.launch(appDispatchers.ui) {
-            themeModeDataStore.saveToDataStore(PreferencesKeys.THEME_MODE, themeMode.value)
+            themeModeDataStore.saveToDataStore(
+                PreferencesKeys.THEME_MODE,
+                themeMode.value
+            )
         }
     }
 
